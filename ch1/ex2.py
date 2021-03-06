@@ -7,8 +7,8 @@ Created on Sat Mar  6 17:27:13 2021
 from random import randint
 random_string1 = [chr(randint(97,122)) for i in range(randint(5,7))]
 random_string2 = [chr(randint(97,122)) for i in range(randint(5,7))]
+
 def check_permutation(str1, str2):
-    print("running check permutation")
     if len(str1) != len(str2):
         return False
     else:
@@ -30,13 +30,11 @@ def check_permutation(str1, str2):
         "if the strings are permutations, then the arrays should be identical"
         for i in range( len( solution_array1)):
             if solution_array1[i] != solution_array2[i]:
-                print("not permutations")
                 return False
-        print("permutations")
         return True
     
 "Running time O(n)"
 
-check_permutation(random_string1, random_string2)
+#check_permutation(random_string1, random_string2)
 
-check_permutation("abcd","acdb")
+#check_permutation("abcd","acdb")
