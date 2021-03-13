@@ -7,3 +7,6 @@ Chapter dedicated to Arrays and Strings.
 
 
 [Exercise 2](ex2.py)
+
+
+[Exercise 3](ex3.py)

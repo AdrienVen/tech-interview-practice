@@ -31,5 +31,3 @@ def urlify(string, length):
     return "".join(string)
 
 "Runtime O(n)"
-
-print(urlify("Mr  Jonh Smith    ", 14))

@@ -37,4 +37,4 @@ def check_permutation(str1, str2):
 
 #check_permutation(random_string1, random_string2)
 
-#check_permutation("abcd","acdb")
+check_permutation("abcd","acdb")
